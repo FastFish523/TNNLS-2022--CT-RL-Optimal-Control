@@ -76,7 +76,8 @@ function figcount = plot_spi(alg_settings, out_data, group_settings)
 % Unpack plot settings
 savefigs = group_settings.savefigs;
 if savefigs
-    relpath = alg_settings.plot_settings.relpath;
+%     relpath = alg_settings.plot_settings.relpath;
+    relpath = group_settings.relpath;
 end
 % dolegend = group_settings.dolegend;
 
