@@ -227,7 +227,8 @@ switch preset_group
         tf = 10;
         
         % Time to simulate after learning [t_f, t_f + tsim]
-        tsim = 0.001;
+        tsim = 10;
+%         tsim = 0.001;
         
         % Number of iterations to terminate after (IRL and RADP only)
         istar = 5;
