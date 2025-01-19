@@ -76,10 +76,10 @@ switch preset_group
         %           
         
         alg_list =  {
-                        'irl'
-                        'spi'
+%                         'irl'
+%                         'spi'
                         'radp_matched'
-                        'vi'
+%                         'vi'
                                             };
  
         % Number of algorithms tested                
